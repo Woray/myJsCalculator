@@ -7,10 +7,6 @@ const container = document.querySelector("#con")
 const operator = document.querySelector("#operator")
 const equals = document.querySelector("#equals")
 
-let num
-let operatorCapture
-let result
-
 //Handles Num event click
 function numHandler(event) {
   let num = event.target.innerText
