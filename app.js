@@ -14,8 +14,9 @@ function numHandler(event) {
 }
 let numClick = key.addEventListener("click", numHandler)
 
+//handles clear button click event
 function clearHandle() {
   txtfield.textContent = ""
 }
-
+//clear button event listener
 clear.addEventListener("click", clearHandle)
